@@ -396,12 +396,21 @@ footer h1 {
     .about-text {
         font-size: 16px;      /* slightly smaller for readability */
         line-height: 1.6;
-        text-align: left;     /* justified on mobile sometimes causes weird spacing */
+       
+        text-align: justify;
+    }
+
+    .dev-section {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      width: 90%;   /* adjust as needed */
     }
 
     .dev-grid {
         grid-template-columns: 1fr; /* stack vertically */
         gap: 20px;
+        
     }
 
     .dev-card img {
