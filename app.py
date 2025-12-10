@@ -5,7 +5,8 @@ import os
 app = Flask(__name__)
 
 # 🔑 Configure your Gemini API key
-genai.configure(api_key="AIzaSyBvoSVJWsSGPoi9-iAXH7MMxImKy7-UaJo")
+api_key = os.getenv("GEMINI_API_KEY")  # Get key from environment variable
+genai.configure(api_key=api_key)
 
 # 🧠 Level 1 System Prompt
 ICPEP_SYSTEM_PROMPT = """
