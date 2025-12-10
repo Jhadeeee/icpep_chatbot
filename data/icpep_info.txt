@@ -23,23 +23,102 @@ Adviser: Engr. Maria L. Cruz
 [COURSE STRUCTURE]
 1st Year, 1st Semester:
 - Math 110: Pre-Calculus - No. of Hours: (LEC: 3, LAB: 0) - Units: 3 - Pre-Requesite: None - Co-Requesite: Math 111
-- (continue here)
-- (continue here)
+- Math 111: Calculus 1 – No. of Hours: (LEC: 5, LAB: 0) – Units: 5 – Pre-Requisite: None – Co-Requisite: Math 110
+- Chem 111: Chemistry for Engineers (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: Chem 111L
+- Chem 111L: Chemistry for Engineers (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: None – Co-Requisite: Chem 111
+- CpE 112: Programming Logic and Design – No. of Hours: (LEC: 0, LAB: 6) – Units: 2 – Pre-Requisite: None – Co-Requisite: None
+- GE-ST: Science, Technology and Society – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- GE-MW: Mathematics in the Modern World – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- GE-PC: Purposive Communication – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- PE 11: PathFit 1 – Movement Competency Training – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: None – Co-Requisite: None
+- NSTP 111: National Service Training Program 1 – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
 
 1st Year, 2nd Semester:
 - Math 112: Calculus 2 - No. of Hours: (LEC: 5, LAB: 0) - Units: 5 - Pre-Requesite: Math 111, Math 110 - Co-Requesite: None
-- (continue here)
-- (continue here)
+-  Phys 111: Physics for Engineers (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: Math 111 – Co-Requisite: Phys 111L
+- Phys 111L: Physics for Engineers (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: Math 111 – Co-Requisite: Phys 111
+- CpE 113: Object-Oriented Programming – No. of Hours: (LEC: 0, LAB: 6) – Units: 2 – Pre-Requisite: CpE 112 – Co-Requisite: None
+- CpE 114: Discrete Mathematics – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: Math 111 – Co-Requisite: None
+- CpE 115: Computer Hardware Fundamentals – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: None – Co-Requisite: None
+- GE-CW: Contemporary World – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- GE-US: Understanding the Self – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- GE-PH: Readings in Philippine History – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- PE 12: PathFit 2 – Exercise-Based Fitness Activities – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: PE 11 – Co-Requisite: None
+- NSTP 121: National Service Training Program 2 – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: NSTP 111 – Co-Requisite: None
 
 2nd Year, 1st Semester:
--
--
+- MATH 113: Differential Equations – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: MATH 112 – Co-Requisite: None
+- MATH 114: Engineering Data Analysis – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: MATH 111 – Co-Requisite: None
+- CpE 116L: Data Structures & Algorithm – No. of Hours: (LEC: 0, LAB: 6) – Units: 2 – Pre-Requisite: CpE 113 – Co-Requisite: None
+- CpE 117: Fundamentals of Electrical Circuits (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: Phy 111 – Co-Requisite: CpE 117L
+- CpE 117L: Fundamentals of Electrical Circuits (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: Phy 111L – Co-Requisite: CpE 117
+- CpE 118: Database Management – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 113 – Co-Requisite: None
+- CpE 118L: Database Management (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 113 – Co-Requisite: None
+- ES 111: Computer-Aided Drafting – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: 2nd Year Standing – Co-Requisite: None
+- ES 112: Engineering Economics – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- GE-GS: Gender and Society – No. of Hours: (LEC: 3, LAB: 0) – Units: 1 – Pre-Requisite: None – Co-Requisite: None
+- PE 21: PATH-Fit 3 – Individual/Dual Sports – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: PE 12 – Co-Requisite: None
 
 2nd Year, 2nd Semester:
--
--
+- MATH 115: Numerical Methods (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: MATH 113 – Co-Requisite: MATH 115L
+- MATH 115L: Numerical Methods (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: MATH 113 – Co-Requisite: MATH 115
+- CpE 119: Software Design (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 116L – Co-Requisite: CpE 119L
+- CpE 119L: Software Design (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 116L – Co-Requisite: CpE 119
+- CpE 120: Fundamentals of Electronic Circuits (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 117 – Co-Requisite: CpE 120L
+- CpE 120L: Fundamentals of Electronic Circuits (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 117 – Co-Requisite: CpE 120
+- CpE 121: WEB Technologies (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 116, CpE 118 – Co-Requisite: CpE 121L
+- CpE 121L: WEB Technologies (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 116L, CpE 118 – Co-Requisite: CpE 121
+- GE-PE: Peace Education – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- GE-AA: Art Appreciation – The Art of Engineering – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- GE-PI: Philippine Indigenous People – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
+- PE 22: PATH-Fit 4 – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: PE 21 – Co-Requisite: None
 
+3rd Year, 1st Semester:
+- CpE 122: Logic Circuits and Design (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 120 – Co-Requisite: CpE 122L
+- CpE 122L: Logic Circuits and Design (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 120 – Co-Requisite: CpE 122
+- CpE 123: Data and Digital Communication – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 120 – Co-Requisite: None
+- CpE 124: Operating System – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 116 – Co-Requisite: None
+- CpE 125: Introduction to HDL – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 112, CpE 120 – Co-Requisite: CpE 122
+- CpE 126: Fundamentals of Mixed Signals and Sensors – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 120 – Co-Requisite: None
+- CpE 127: Introduction to Embedded Systems (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 112, CpE 120 – Co-Requisite: CpE 127L
+- CpE 127L: Introduction to Embedded Systems (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 112, CpE 120 – Co-Requisite: CpE 127
+- CpE 128: Computer Engineering Drafting and Design – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 120 – Co-Requisite: None
+- CpE 129: Methods of Research & Writing – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: GE-PC, MATH 114 – Co-Requisite: None
+- GE-E: Engineering Ethics – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: 3rd Year Standing – Co-Requisite: None
+- IC 111L: Community-Based Engagement for Computer Engineering – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: 3rd Year Standing – Co-Requisite: None
 
+3rd Year, 2nd Semester:
+- CpE 130: Computer Networks and Security (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 123 – Co-Requisite: CpE 130L
+- CpE 130L: Computer Networks and Security (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 123 – Co-Requisite: CpE 130
+- CpE 131: Microprocessors (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 122 – Co-Requisite: CpE 131L
+- CpE 131L: Microprocessors (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 122 – Co-Requisite: CpE 131
+- CpE 132: Feedback and Control Systems – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: MATH 115, CpE 120 – Co-Requisite: None
+- CpE 133: CpE Laws and Professional Practice – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: 3rd Year Standing – Co-Requisite: None
+- CpE 134: Embedded Systems Design (Lec) – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: CpE 127 – Co-Requisite: CpE 134L
+- CpE 134L: Embedded Systems Design (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 127 – Co-Requisite: CpE 134
+- ES 113: Engineering Management – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: 3rd Year Standing – Co-Requisite: None
+- ES 114: Technopreneurship – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: 3rd Year Standing – Co-Requisite: None
+- CPE 135: Basic Occupational Health and Safety – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: 3rd Year Standing – Co-Requisite: None
+
+Summer:
+- CpE 331: On-the-Job Training – 240 Hours – No. of Hours: (LEC: 3, LAB: 3) – Units: 4 – Pre-Requisite: Completed all Technical Courses prior to OJT – Co-Requisite: None
+
+4th Year, 1st Semester:
+- CpE 137: Computer Architecture and Organization (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 131 – Co-Requisite: CpE 137L
+- CpE 137L: Computer Architecture and Organization (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 131 – Co-Requisite: CpE 137
+- CpE 138: Emerging Technologies in CpE – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: 4th Year Standing – Co-Requisite: CpE 139
+- CpE 139L: CpE Practice and Design 1 (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 131, CpE 129 – Co-Requisite: None
+- CpE 140: Digital Signal Processing (Lec) – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: CpE 132 – Co-Requisite: CpE 140L
+- CpE 140L: Digital Signal Processing (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 132 – Co-Requisite: CpE 140
+- CpE 141: Advanced Embedded Systems Design (Lec) – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: CpE 134 – Co-Requisite: CpE 141L
+- CpE 141L: Advanced Embedded Systems Design (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 134 – Co-Requisite: CpE 141
+
+4th Year, 2nd Semester:
+- CpE 142AL: CpE Practice and Design 2 (Lab) – No. of Hours: (LEC: 0, LAB: 6) – Units: 3 – Pre-Requisite: CpE 139, CpE 141 – Co-Requisite: None
+- CpE 143: Seminars & Field Trips/Tour – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: 4th Year Standing – Co-Requisite: None
+- CpE 144: System-on-Chip Design (Lec) – No. of Hours: (LEC: 2, LAB: 0) – Units: 2 – Pre-Requisite: CpE 125 – Co-Requisite: CpE 144L
+- CpE 144L: System-on-Chip Design (Lab) – No. of Hours: (LEC: 0, LAB: 3) – Units: 1 – Pre-Requisite: CpE 125 – Co-Requisite: CpE 144
+- RIZAL: Rizal’s Life and Works – No. of Hours: (LEC: 3, LAB: 0) – Units: 3 – Pre-Requisite: None – Co-Requisite: None
 
 
 [FAQs]
