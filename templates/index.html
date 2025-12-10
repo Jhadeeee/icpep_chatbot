@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICpEP.SE Chatbot</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <!-- 🟦 Header -->
+  <header class="dashboard-header">
+    <div class="header-left">
+      <img src="{{ url_for('static', filename='icpep_logo.png') }}" alt="ICpEP Logo" class="logo">
+      <h1>ICpEP.SE Chatbot</h1>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" title="About Us" onclick="window.location.href='/about-us'">
+        <i data-lucide="info"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- 💬 Chat Section -->
+  <section class="chat-section">
+    <div id="chat-box">
+      <div class="message ai">👋 Hello! I’m the ICpEP.SE Chatbot of JRMSU Main. How can I assist you today?</div>
+    </div>
+  </section>
+
+  <!-- ✍️ Input Area -->
+  <div class="chat-input">
+    <input type="text" id="user-input" placeholder="Ask something about ICpEP..." autocomplete="off">
+    <button onclick="sendMessage()"><i data-lucide="send"></i></button>
+  </div>
+
+  <script>
+    lucide.createIcons();
+
+    async function sendMessage() {
+      const input = document.getElementById("user-input");
+      const chatBox = document.getElementById("chat-box");
+      const message = input.value.trim();
+      if (!message) return;
+
+      // 🧑 User message
+      const userMsg = document.createElement("div");
+      userMsg.className = "message user";
+      userMsg.textContent = message;
+      chatBox.appendChild(userMsg);
+      input.value = "";
+
+      chatBox.scrollTop = chatBox.scrollHeight;
+
+      try {
+        // 📡 Send message to backend
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message })
+        });
+        const data = await response.json();
+
+        // 🤖 Bot message
+        const botMsg = document.createElement("div");
+        botMsg.className = "message ai";
+        botMsg.textContent = data.reply;
+        chatBox.appendChild(botMsg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      } catch (err) {
+        const errorMsg = document.createElement("div");
+        errorMsg.className = "message ai";
+        errorMsg.textContent = "⚠️ Connection error. Please try again.";
+        chatBox.appendChild(errorMsg);
+      }
+
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    // 🔘 Send message on Enter key
+    document.getElementById("user-input").addEventListener("keypress", function(e) {
+      if (e.key === "Enter") sendMessage();
+    });
+  </script>
+</body>
+</html>

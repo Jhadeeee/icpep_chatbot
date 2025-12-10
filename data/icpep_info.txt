@@ -1,0 +1,56 @@
+[ABOUT ICPEP]
+The Institute of Computer Engineers of the Philippines – Student Edition (ICpEP.SE)
+is a national organization for Computer Engineering students in the Philippines.
+Its main goal is to promote academic excellence, leadership, and camaraderie among CPE students.
+
+[MISSION]
+To develop globally competitive Computer Engineers through excellence in academics,
+research, and community involvement.
+
+[VISION]
+A community of future Computer Engineers that uphold professionalism,
+innovation, and collaboration for nation-building.
+
+[ICPEP OFFICERS - 2025]
+President: Engr. John Doe
+Vice President: Jane Santos
+Secretary: Carlo Reyes
+Treasurer: Mika Dela Cruz
+Auditor: RJ Perez
+PRO: Alyssa Mendoza
+Adviser: Engr. Maria L. Cruz
+
+[COURSE STRUCTURE]
+1st Year, 1st Semester:
+- Math 110: Pre-Calculus - No. of Hours: (LEC: 3, LAB: 0) - Units: 3 - Pre-Requesite: None - Co-Requesite: Math 111
+- (continue here)
+- (continue here)
+
+1st Year, 2nd Semester:
+- Math 112: Calculus 2 - No. of Hours: (LEC: 5, LAB: 0) - Units: 5 - Pre-Requesite: Math 111, Math 110 - Co-Requesite: None
+- (continue here)
+- (continue here)
+
+2nd Year, 1st Semester:
+-
+-
+
+2nd Year, 2nd Semester:
+-
+-
+
+
+
+
+[FAQs]
+Q: How to become an ICpEP member?
+A: Fill out the membership form and pay the membership fee.
+
+Q: What are the benefits of joining ICpEP.SE?
+A: You gain access to seminars, workshops, competitions, and nationwide networking opportunities.
+
+Q: Who can join?
+A: Any student enrolled under the Computer Engineering program.
+
+Q: How to contact ICpEP officers?
+A: You can message the official Facebook page or visit the CPE department office.

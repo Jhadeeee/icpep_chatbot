@@ -1,0 +1,455 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: -1;
+}
+
+
+
+/* 🟦 Header */
+.dashboard-header {
+  width: 100%; 
+  background-color: transparent; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px 25px; 
+  box-sizing: border-box; 
+  border-bottom: 2px solid #ddd;
+  position: relative; /* enables the pseudo element positioning */
+  border-bottom: none !important; /* remove original line */
+}
+
+.dashboard-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: 2px;
+    background-color: rgb(68, 68, 68); /* your new color */
+    opacity: 0.8; /* optional: softer line */
+    right: 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.header-left h1 {
+  font-size: 1.4rem;
+  color: black;
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  gap: 25px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: #1b1b1b;
+}
+
+.icon-btn i {
+  width: 24px;
+  height: 24px;
+  color: #1b1b1b;
+}
+
+.icon-btn:hover i {
+  color: #0a84ff;
+}
+
+/* 💬 Chat Section */
+.chat-section {
+  flex: 1;
+  overflow: hidden; /* prevents input overlap */
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+#chat-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+  overflow-y: auto; /* ✅ scrollable conversation */
+  padding: 20px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+  max-height: 100%;
+  background: transparent !important;
+}
+
+/* Message bubbles */
+.message {
+  max-width: 70%;
+  padding: 12px 16px;
+  border-radius: 16px;
+  line-height: 1.5;
+  font-size: 1rem;
+  word-wrap: break-word;
+  animation: fadeIn 0.3s ease;
+  
+}
+
+.user {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.ai {
+  align-self: flex-start;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* ✍️ Input */
+.chat-input {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: transparent;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 15px;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+}
+
+.chat-input button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.chat-input button:hover {
+  background: #0056b3;
+}
+
+
+
+.about-container {
+    padding: 20px 40px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.dev-section {
+    margin: 40px auto;
+    padding: 20px;
+    padding-top: -40px;
+    width: 100%;
+}
+
+.dev-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.dev-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 40px; /* row-gap and column-gap */
+    justify-items: center;
+    padding: 0 20px;
+}
+
+.dev-card {
+    text-align: center;
+}
+
+.dev-card img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.dev-name {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+footer {
+    background-color: black; /* Set background color for the footer */
+    color: white; /* Set text color for the footer */
+    padding: 20px; /* Add padding to the footer content */
+    text-align: left; /* Center-align the footer content */
+    clear: both; /* Clear floats to ensure proper layout */
+    height: auto;
+}
+
+footer p {
+    margin-bottom: 10px; /* Add margin to the bottom of the paragraph */
+    margin-left: 20px;
+    font-family: Cambria;
+    font-size: x-large;
+}
+
+footer a {
+    color: white; /* Set link color for the footer */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 20px;
+    font-size: small;
+    font-family: consolas;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;   /* 🔥 Stack vertically */
+    gap: 14px;                /* Spacing between icons */
+    align-items: flex-start;  /* Align left like your list */
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon i {
+    width: 24px;
+    height: 24px;
+}
+
+/* Hover effect */
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+footer a:hover {
+    color: orange;
+}
+
+#footer1 {
+    width: 33.33%;
+    float: left;
+    
+}
+
+#footer2 {
+    width: 33.33%;
+    margin-left: 34%;
+   
+}
+
+#footer3 {
+    width: 32.33%;
+    float: right;
+    align-items: center;
+    
+}
+
+#footer3 img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    margin-top: -120px;
+    filter: contrast(100000%) brightness(95%) saturate(0%) hue-rotate(0deg);
+}
+
+footer h1 {
+    border-bottom: 2px solid rgb(147, 135, 135);
+    width: 40%;
+}
+
+#h2 {
+    border-bottom: 2px solid rgb(147, 135, 135);
+    width: 60%;
+    font-family: Cambria;
+    font-size: x-large;
+    padding: 10px;
+}
+
+#footer2 p {
+    font-family: consolas;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.footer_nav {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer_copy {
+    padding-left: 0;      /* remove manual shifting */
+}
+
+.footer_copy p {
+  color: #000;
+    margin: 0;
+    text-align: center;   /* keep it centered */
+}
+
+.footer_dev {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+
+
+
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  body {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+
+  .dashboard-header {
+    align-items: flex-start;
+    padding: 10px 15px;
+    text-align: left;
+  }
+
+      
+  .header-actions {
+    gap: 5px;
+    padding-right: 0;
+    padding-top: 5px;
+  }
+
+  /* About Us text optimized for mobile */
+    .about-container {
+        padding: 15px 20px;   /* reduce side spacing */
+    }
+
+    .about-text {
+        font-size: 16px;      /* slightly smaller for readability */
+        line-height: 1.6;
+        text-align: left;     /* justified on mobile sometimes causes weird spacing */
+    }
+
+    .dev-grid {
+        grid-template-columns: 1fr; /* stack vertically */
+        gap: 20px;
+    }
+
+    .dev-card img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .dev-name {
+        font-size: 16px;
+    }
+
+
+    /* Footer becomes stacked instead of 3 columns */
+    #footer1, #footer2, #footer3 {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #footer3 img {
+        margin-top: 10px;
+        width: 120px; /* smaller logo for mobile */
+    }
+
+    footer h1,
+    #h2 {
+        width: 100%;   /* stretch divider line */
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .social-icons {
+        align-items: center;  /* center icons */
+    }
+
+    .social-icon i {
+        width: 28px;   /* slightly bigger for tap targets */
+        height: 28px;
+    }
+
+    footer p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer_dev{
+      margin-top: -40px;
+    }
+}

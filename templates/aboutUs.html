@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    html, body {
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 🟦 Header -->
+  <header class="dashboard-header">
+    <div class="header-left">
+      <img src="{{ url_for('static', filename='icpep_logo.png') }}" alt="ICpEP Logo" class="logo">
+      <h1>About Us</h1>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" title="Back to Chat" onclick="window.location.href='/'">
+        <i data-lucide="message-circle"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="about-container">
+  <p class="about-text">The ICpEP.SE Chatbot serves as the official virtual assistant of the Institute of Computer Engineers of the Philippines – Student Edition (ICpEP.SE), JRMSU Main Campus. Designed with the needs of Computer Engineering students in mind, this intelligent system provides fast, accurate, and accessible academic support across a wide range of topics. From subject prerequisites, curriculum flow, and course sequencing to organizational information, membership concerns, and event announcements, the chatbot acts as a centralized information hub for both new and returning students.
+
+Leveraging modern artificial intelligence technologies, the ICpEP.SE Chatbot delivers real-time responses to common student inquiries, reducing the need for manual assistance and ensuring that essential information is always within reach. It enhances communication between the organization and its members, enabling students to stay updated on activities, seminars, competitions, and opportunities within the ICpEP.SE community.
+
+More than just a Q&A tool, this system represents an ongoing initiative to integrate intelligent digital solutions into the academic environment. By introducing AI-powered assistance, ICpEP.SE aims to promote innovation, accessibility, and technological advancement within the field of Computer Engineering. The chatbot also reflects the organization’s commitment to fostering a supportive, future-ready learning experience empowering students to navigate their academic journey with confidence and ease.
+
+The development of the ICpEP.SE Chatbot is a collaborative effort driven by a vision to modernize student services, streamline information access, and cultivate a forward-thinking culture among future Computer Engineers. As technology continues to evolve, this virtual assistant will grow alongside it continuously improving to meet the needs of the academic community it serves.</p>
+    </div>
+
+  <!-- Developer Profiles Section -->
+  <section class="dev-section">
+
+      <h2 class="dev-title">Developer Team</h2>
+
+      <div class="dev-grid">
+
+          <div class="dev-card">
+              <img src="{{ url_for('static', filename='jhade.jpg') }}" alt="Developer 1">
+              <p class="dev-name">Jhade Bangquiao</p>
+          </div>
+
+          <div class="dev-card">
+              <img src="{{ url_for('static', filename='nino.png') }}" alt="Developer 2">
+              <p class="dev-name">Niño Lamdag</p>
+          </div>
+
+          <div class="dev-card">
+              <img src="{{ url_for('static', filename='janice.jpg') }}" alt="Developer 3">
+              <p class="dev-name">Janice Samorano</p>
+          </div>
+
+          <div class="dev-card">
+              <img src="{{ url_for('static', filename='julia.jpg') }}" alt="Developer 4">
+              <p class="dev-name">Julia Andrea Yting</p>
+          </div>
+
+          <div class="dev-card">
+              <img src="{{ url_for('static', filename='rap.jpg') }}" alt="Developer 5">
+              <p class="dev-name">Rap Wyndril Andilab</p>
+          </div>
+
+      </div>
+
+  </section>
+
+
+  <footer>
+      <div id="footer1">
+          <h1><p>Quick Links</p></h1>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon" aria-label="Facebook">
+                <i data-lucide="facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram">
+                <i data-lucide="instagram"></i>
+            </a>
+            
+            <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub">
+                <i data-lucide="github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn">
+                <i data-lucide="linkedin"></i>
+            </a>
+          </div>
+      </div>
+      <div id="footer2">
+          <h1 id="h2">Contacts Information</h1>
+          <p>Sta. Cruz, Dapitan, City</p>
+          <p>Email:<a href="#">jhadejaphetbangquiao@gmail.com</a></p>
+          <p>Contact Number: 0938-141-3652</p>
+      </div>
+      <div id="footer3">
+          <a href="homepage.html"><img src="static/logo.png" alt="logo.png"></a>
+      </div>
+
+      <div class="footer_nav">
+        <div class="footer_copy">
+            <p>-</p>
+        </div>
+        <div class="footer_dev">
+            &copy; 2025 My Chatbot. All rights reserved.<br>
+            Develop by: Group 2 Emerging Tech Students S.Y. 2025-2026
+        </div>
+      </div>
+      
+  </footer>
+
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+  
+</body>
+</html>
